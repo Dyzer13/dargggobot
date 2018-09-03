@@ -34,7 +34,7 @@ client.on('ready', () => { //console.log
 });
 
 client.on('message', message => {
-var prefix = "$!$";
+var prefix = "-hi";
 
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
