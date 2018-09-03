@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '-DY'
+const prefix = '-hi'
 
 client.on('ready', () => { //console.log
   console.log('--------------------------');
